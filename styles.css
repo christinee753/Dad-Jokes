@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #686de0;
+  background-color: #68d2e0;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,14 @@ body {
 }
 
 body {
-  background-color: #686de0;
+  background-color: #0b1026;
+  background-image:
+    radial-gradient(circle, #fff 1px, transparent 1px),
+    radial-gradient(circle, #fff 1.5px, transparent 1.5px),
+    radial-gradient(circle, #b8c7ff 1px, transparent 1px);
+  background-size: 45px 45px, 90px 90px, 70px 70px;
+  background-position: 0 0, 20px 30px, 40px 10px;
+  
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -37,7 +44,7 @@ body {
 }
 
 .container {
-  background-color: #fff;
+  background-color: #b6b6b6;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
   padding: 50px 20px;
@@ -61,7 +68,7 @@ h3 {
 }
 
 .btn {
-  background-color: #9f68e0;
+  background-color: #0043a6;
   color: #fff;
   border: 0;
   border-radius: 10px;
